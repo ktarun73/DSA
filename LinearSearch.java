@@ -25,5 +25,6 @@ public class LinearSearch {
         else{
             System.out.println(element+" is not present");
         }
+        scanner.close();
     }
 }
