@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int a=10;
-        a=a>>1;
-        System.out.println(a);
+        int[] ar={1,1,2,3,4,5};
+
     }
 }

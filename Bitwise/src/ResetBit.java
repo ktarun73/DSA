@@ -1,7 +1,7 @@
 public class ResetBit {
     public static void main(String[] args) {
         int a=5;
-        resetIthBit(a,2);
+        resetIthBit(a,3);
     }
 
     static void resetIthBit(int a, int i){
