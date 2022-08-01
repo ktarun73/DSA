@@ -1,3 +1,4 @@
+
 public class DoublyLL {
     Node head;
     class Node{
@@ -88,7 +89,8 @@ public class DoublyLL {
         list.addLast(3);
         list.addLast(4);
         list.addFirst(0);
-        list.revList();
+//        list.revList();
+
         list.printList();
 //        list.printRevList();
     }
