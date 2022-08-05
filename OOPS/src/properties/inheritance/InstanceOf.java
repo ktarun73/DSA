@@ -15,7 +15,7 @@ class Moon extends Earth{
 }
 public class InstanceOf {
     public static void main(String[] args) {
-        SolarSystem s=new SolarSystem();
+        SolarSystem s=new Earth();
         Earth e=new Earth();
         Mars m=new Mars();
 
