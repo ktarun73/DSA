@@ -3,7 +3,7 @@ package ObjectCloning.Deepcopy;
 public class Human implements Cloneable {
     int age;
     String name;
-    int ar[];
+    int[] ar;
 
     public Human(int age, String name) {
         this.age = age;
@@ -14,6 +14,11 @@ public class Human implements Cloneable {
     @Override
     public Object clone()throws CloneNotSupportedException{
         //this is shallow copy
-        return super.clone();
+        Human temp=(Human) super.clone();
+
+        // make a deep copy
+        temp.ar=new int[temp.ar.length];
+        System.arraycopy(this.ar, 0, temp.ar, 0, temp.ar.length);
+        return temp;
     }
 }
