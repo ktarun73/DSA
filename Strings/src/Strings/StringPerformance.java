@@ -1,6 +1,6 @@
 package Strings;
 
-public class StingPerformance {
+public class StringPerformance {
     public static void main(String[] args) {
         String str="";
         for (int i = 0; i < 10; i++) {
